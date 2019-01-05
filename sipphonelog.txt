@@ -1,0 +1,2640 @@
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= sipphone
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<message
+from="192.168.121.114:53771" 
+to="192.168.121.114:5060" 
+time="1546604047424"
+isSender="false" 
+transactionId="z9hg4bkc5weizm0h" 
+callId="NXXNPG4b-1546604047388@guomindeMacBook-Pro.local" 
+firstLine="REGISTER sip:192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:53771;rport=53771;received=192.168.121.114;branch=z9hG4bKC5wEIZM0H
+Max-Forwards: 70
+To: <sip:1000@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=vx81E5Xb
+Call-ID: NXXNPG4b-1546604047388@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Expires: 3600
+Contact: <sip:1000@192.168.121.114:53771;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:53771" 
+time="1546604047635"
+isSender="true" 
+transactionId="z9hg4bkc5weizm0h" 
+callId="NXXNPG4b-1546604047388@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.121.114:53771;rport=53771;received=192.168.121.114;branch=z9hG4bKC5wEIZM0H
+To: <sip:1000@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=vx81E5Xb
+Call-ID: NXXNPG4b-1546604047388@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:52621" 
+to="192.168.121.114:5060" 
+time="1546604060426"
+isSender="false" 
+transactionId="z9hg4bkgjtebpmif" 
+callId="5NNrdhXU-1546604060415@guomindeMacBook-Pro.local" 
+firstLine="REGISTER sip:192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:52621;rport=52621;received=192.168.121.114;branch=z9hG4bKGjtEbpMIf
+Max-Forwards: 70
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1001@192.168.121.114:5060>;tag=tTDii4Zp
+Call-ID: 5NNrdhXU-1546604060415@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Expires: 3600
+Contact: <sip:1001@192.168.121.114:52621;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:52621" 
+time="1546604060432"
+isSender="true" 
+transactionId="z9hg4bkgjtebpmif" 
+callId="5NNrdhXU-1546604060415@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.121.114:52621;rport=52621;received=192.168.121.114;branch=z9hG4bKGjtEbpMIf
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1001@192.168.121.114:5060>;tag=tTDii4Zp
+Call-ID: 5NNrdhXU-1546604060415@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:53771" 
+to="192.168.121.114:5060" 
+time="1546604143741"
+isSender="false" 
+transactionId="z9hg4bk51znufzpb" 
+callId="YMv05Pyy-1546604143724@guomindeMacBook-Pro.local" 
+firstLine="INVITE sip:1000@192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:1000@192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:53771;rport=53771;received=192.168.121.114;branch=z9hG4bK51znufzPB
+Max-Forwards: 70
+To: <sip:1000@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=qczZMDnk
+Call-ID: YMv05Pyy-1546604143724@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Content-Type: application/sdp
+Contact: <sip:1000@192.168.121.114:53771;transport=UDP>
+Content-Length: 216
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:53771" 
+time="1546604143755"
+isSender="true" 
+transactionId="z9hg4bk51znufzpb" 
+callId="YMv05Pyy-1546604143724@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.121.114:53771;rport=53771;received=192.168.121.114;branch=z9hG4bK51znufzPB
+To: <sip:1000@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=qczZMDnk
+Call-ID: YMv05Pyy-1546604143724@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:53771" 
+time="1546604143762"
+isSender="true" 
+transactionId="z9hg4bk51znufzpbsipphone" 
+callId="YMv05Pyy-1546604143724@guomindeMacBook-Pro.local" 
+firstLine="INVITE sip:1000@192.168.121.114:53771;transport=UDP SIP/2.0" 
+>
+<![CDATA[INVITE sip:1000@192.168.121.114:53771;transport=UDP SIP/2.0
+Max-Forwards: 70
+To: <sip:1000@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=qczZMDnk
+Call-ID: YMv05Pyy-1546604143724@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Content-Type: application/sdp
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bK51znufzPBsipphone
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+Content-Length: 216
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:53771" 
+to="192.168.121.114:5060" 
+time="1546604143780"
+isSender="false" 
+transactionId="z9hg4bk51znufzpbsipphone" 
+callId="YMv05Pyy-1546604143724@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+From: <sip:1000@192.168.121.114:5060>;tag=qczZMDnk
+Call-ID: YMv05Pyy-1546604143724@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bK51znufzPBsipphone
+To: <sip:1000@192.168.121.114:5060>;tag=5NOZh8BmGF
+Contact: <sip:192.168.121.114:53771;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:53771" 
+time="1546604143786"
+isSender="true" 
+transactionId="z9hg4bk51znufzpb" 
+callId="YMv05Pyy-1546604143724@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Via: SIP/2.0/UDP 192.168.121.114:53771;rport=53771;received=192.168.121.114;branch=z9hG4bK51znufzPB
+From: <sip:1000@192.168.121.114:5060>;tag=qczZMDnk
+Call-ID: YMv05Pyy-1546604143724@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+To: <sip:1000@192.168.121.114:5060>;tag=5NOZh8BmGF
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:53771" 
+to="192.168.121.114:5060" 
+time="1546604276110"
+isSender="false" 
+transactionId="z9hg4bkyf5qkcsls" 
+callId="rXpLFeDz-1546604276108@guomindeMacBook-Pro.local" 
+firstLine="INVITE sip:1001@192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:1001@192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:53771;rport=53771;received=192.168.121.114;branch=z9hG4bKYf5qKCSlS
+Max-Forwards: 70
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=SiOTsPid
+Call-ID: rXpLFeDz-1546604276108@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Content-Type: application/sdp
+Contact: <sip:1000@192.168.121.114:53771;transport=UDP>
+Content-Length: 217
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:53771" 
+time="1546604276116"
+isSender="true" 
+transactionId="z9hg4bkyf5qkcsls" 
+callId="rXpLFeDz-1546604276108@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.121.114:53771;rport=53771;received=192.168.121.114;branch=z9hG4bKYf5qKCSlS
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=SiOTsPid
+Call-ID: rXpLFeDz-1546604276108@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:52621" 
+time="1546604276121"
+isSender="true" 
+transactionId="z9hg4bkyf5qkcslssipphone" 
+callId="rXpLFeDz-1546604276108@guomindeMacBook-Pro.local" 
+firstLine="INVITE sip:1001@192.168.121.114:52621;transport=UDP SIP/2.0" 
+>
+<![CDATA[INVITE sip:1001@192.168.121.114:52621;transport=UDP SIP/2.0
+Max-Forwards: 70
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=SiOTsPid
+Call-ID: rXpLFeDz-1546604276108@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Content-Type: application/sdp
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bKYf5qKCSlSsipphone
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+Content-Length: 217
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:52621" 
+to="192.168.121.114:5060" 
+time="1546604276141"
+isSender="false" 
+transactionId="z9hg4bkyf5qkcslssipphone" 
+callId="rXpLFeDz-1546604276108@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+From: <sip:1000@192.168.121.114:5060>;tag=SiOTsPid
+Call-ID: rXpLFeDz-1546604276108@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bKYf5qKCSlSsipphone
+To: <sip:1001@192.168.121.114:5060>;tag=FegkaLfOVi
+Contact: <sip:192.168.121.114:52621;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:53771" 
+time="1546604276147"
+isSender="true" 
+transactionId="z9hg4bkyf5qkcsls" 
+callId="rXpLFeDz-1546604276108@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Via: SIP/2.0/UDP 192.168.121.114:53771;rport=53771;received=192.168.121.114;branch=z9hG4bKYf5qKCSlS
+From: <sip:1000@192.168.121.114:5060>;tag=SiOTsPid
+Call-ID: rXpLFeDz-1546604276108@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+To: <sip:1001@192.168.121.114:5060>;tag=FegkaLfOVi
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:52621" 
+to="192.168.121.114:5060" 
+time="1546604294278"
+isSender="false" 
+transactionId="z9hg4bkyf5qkcslssipphone" 
+callId="rXpLFeDz-1546604276108@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+From: <sip:1000@192.168.121.114:5060>;tag=SiOTsPid
+Call-ID: rXpLFeDz-1546604276108@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bKYf5qKCSlSsipphone
+To: <sip:1001@192.168.121.114:5060>;tag=FegkaLfOVi
+Content-Type: application/sdp
+Contact: <sip:192.168.121.114:52621;transport=UDP>
+Content-Length: 218
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:53771" 
+time="1546604294281"
+isSender="true" 
+transactionId="z9hg4bkyf5qkcsls" 
+callId="rXpLFeDz-1546604276108@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.121.114:53771;rport=53771;received=192.168.121.114;branch=z9hG4bKYf5qKCSlS
+From: <sip:1000@192.168.121.114:5060>;tag=SiOTsPid
+Call-ID: rXpLFeDz-1546604276108@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+To: <sip:1001@192.168.121.114:5060>;tag=FegkaLfOVi
+Content-Type: application/sdp
+Content-Length: 218
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:53771" 
+to="192.168.121.114:5060" 
+time="1546604294452"
+isSender="false" 
+transactionId="z9hg4bknl81vaohw" 
+callId="rXpLFeDz-1546604276108@guomindeMacBook-Pro.local" 
+firstLine="ACK sip:sipsoft@192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[ACK sip:sipsoft@192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:53771;rport=53771;received=192.168.121.114;branch=z9hG4bKNl81VAOhW
+To: <sip:1001@192.168.121.114:5060>;tag=FegkaLfOVi
+From: <sip:1000@192.168.121.114:5060>;tag=SiOTsPid
+Call-ID: rXpLFeDz-1546604276108@guomindeMacBook-Pro.local
+CSeq: 3 ACK
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:52621" 
+time="1546604294456"
+isSender="true" 
+transactionId="z9hg4bk04906298a380860897e0b983a89f8891" 
+callId="rXpLFeDz-1546604276108@guomindeMacBook-Pro.local" 
+firstLine="ACK sip:192.168.121.114:52621;transport=UDP SIP/2.0" 
+>
+<![CDATA[ACK sip:192.168.121.114:52621;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bK04906298a380860897e0b983a89f8891
+CSeq: 3 ACK
+From: <sip:1000@192.168.121.114:5060>;tag=SiOTsPid
+Call-ID: rXpLFeDz-1546604276108@guomindeMacBook-Pro.local
+To: <sip:1001@192.168.121.114:5060>;tag=FegkaLfOVi
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= sipphone
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<message
+from="192.168.121.114:49367" 
+to="192.168.121.114:5060" 
+time="1546607727201"
+isSender="false" 
+transactionId="z9hg4bkelu4txpes" 
+callId="gtacK4Df-1546607727188@guomindeMacBook-Pro.local" 
+firstLine="REGISTER sip:192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:49367;rport=49367;received=192.168.121.114;branch=z9hG4bKelu4txpeS
+Max-Forwards: 70
+To: <sip:1000@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=WO5RczfT
+Call-ID: gtacK4Df-1546607727188@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Expires: 3600
+Contact: <sip:1000@192.168.121.114:49367;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:49367" 
+time="1546607727313"
+isSender="true" 
+transactionId="z9hg4bkelu4txpes" 
+callId="gtacK4Df-1546607727188@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.121.114:49367;rport=49367;received=192.168.121.114;branch=z9hG4bKelu4txpeS
+To: <sip:1000@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=WO5RczfT
+Call-ID: gtacK4Df-1546607727188@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:61296" 
+to="192.168.121.114:5060" 
+time="1546607728697"
+isSender="false" 
+transactionId="z9hg4bk1drlw1hue" 
+callId="Fm5yLCgl-1546607728686@guomindeMacBook-Pro.local" 
+firstLine="REGISTER sip:192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:61296;rport=61296;received=192.168.121.114;branch=z9hG4bK1drlw1hUe
+Max-Forwards: 70
+To: <sip:1000@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=iefRXMTh
+Call-ID: Fm5yLCgl-1546607728686@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Expires: 3600
+Contact: <sip:1000@192.168.121.114:61296;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:61296" 
+time="1546607728703"
+isSender="true" 
+transactionId="z9hg4bk1drlw1hue" 
+callId="Fm5yLCgl-1546607728686@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.121.114:61296;rport=61296;received=192.168.121.114;branch=z9hG4bK1drlw1hUe
+To: <sip:1000@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=iefRXMTh
+Call-ID: Fm5yLCgl-1546607728686@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:62905" 
+to="192.168.121.114:5060" 
+time="1546607734531"
+isSender="false" 
+transactionId="z9hg4bkomnvyc7ev" 
+callId="pL2HiDlV-1546607734520@guomindeMacBook-Pro.local" 
+firstLine="REGISTER sip:192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:62905;rport=62905;received=192.168.121.114;branch=z9hG4bKoMnVYC7EV
+Max-Forwards: 70
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1001@192.168.121.114:5060>;tag=myhAwpTV
+Call-ID: pL2HiDlV-1546607734520@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Expires: 3600
+Contact: <sip:1001@192.168.121.114:62905;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:62905" 
+time="1546607734538"
+isSender="true" 
+transactionId="z9hg4bkomnvyc7ev" 
+callId="pL2HiDlV-1546607734520@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.121.114:62905;rport=62905;received=192.168.121.114;branch=z9hG4bKoMnVYC7EV
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1001@192.168.121.114:5060>;tag=myhAwpTV
+Call-ID: pL2HiDlV-1546607734520@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:61296" 
+to="192.168.121.114:5060" 
+time="1546607747880"
+isSender="false" 
+transactionId="z9hg4bkfcrorp7sm" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="INVITE sip:1001@192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:1001@192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:61296;rport=61296;received=192.168.121.114;branch=z9hG4bKFCrOrP7sM
+Max-Forwards: 70
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Content-Type: application/sdp
+Contact: <sip:1000@192.168.121.114:61296;transport=UDP>
+Content-Length: 217
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:61296" 
+time="1546607747894"
+isSender="true" 
+transactionId="z9hg4bkfcrorp7sm" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.121.114:61296;rport=61296;received=192.168.121.114;branch=z9hG4bKFCrOrP7sM
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:62905" 
+time="1546607747900"
+isSender="true" 
+transactionId="z9hg4bkfcrorp7smsipphone" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="INVITE sip:1001@192.168.121.114:62905;transport=UDP SIP/2.0" 
+>
+<![CDATA[INVITE sip:1001@192.168.121.114:62905;transport=UDP SIP/2.0
+Max-Forwards: 70
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Content-Type: application/sdp
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bKFCrOrP7sMsipphone
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+Content-Length: 217
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:62905" 
+to="192.168.121.114:5060" 
+time="1546607747913"
+isSender="false" 
+transactionId="z9hg4bkfcrorp7smsipphone" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+From: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bKFCrOrP7sMsipphone
+To: <sip:1001@192.168.121.114:5060>;tag=AVER6TiIt1
+Contact: <sip:192.168.121.114:62905;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:61296" 
+time="1546607747919"
+isSender="true" 
+transactionId="z9hg4bkfcrorp7sm" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Via: SIP/2.0/UDP 192.168.121.114:61296;rport=61296;received=192.168.121.114;branch=z9hG4bKFCrOrP7sM
+From: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+To: <sip:1001@192.168.121.114:5060>;tag=AVER6TiIt1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:62905" 
+to="192.168.121.114:5060" 
+time="1546607766314"
+isSender="false" 
+transactionId="z9hg4bkfcrorp7smsipphone" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+From: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bKFCrOrP7sMsipphone
+To: <sip:1001@192.168.121.114:5060>;tag=AVER6TiIt1
+Content-Type: application/sdp
+Contact: <sip:192.168.121.114:62905;transport=UDP>
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:61296" 
+time="1546607766319"
+isSender="true" 
+transactionId="z9hg4bkfcrorp7sm" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.121.114:61296;rport=61296;received=192.168.121.114;branch=z9hG4bKFCrOrP7sM
+From: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+To: <sip:1001@192.168.121.114:5060>;tag=AVER6TiIt1
+Content-Type: application/sdp
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:61296" 
+to="192.168.121.114:5060" 
+time="1546607766458"
+isSender="false" 
+transactionId="z9hg4bksnmaqotfv" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="ACK sip:sipsoft@192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[ACK sip:sipsoft@192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:61296;rport=61296;received=192.168.121.114;branch=z9hG4bKSnmAqoTfv
+To: <sip:1001@192.168.121.114:5060>;tag=AVER6TiIt1
+From: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+CSeq: 2 ACK
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:62905" 
+time="1546607766462"
+isSender="true" 
+transactionId="z9hg4bk54559e021540b462defdc0f7403ef128" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="ACK sip:192.168.121.114:62905;transport=UDP SIP/2.0" 
+>
+<![CDATA[ACK sip:192.168.121.114:62905;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bK54559e021540b462defdc0f7403ef128
+CSeq: 2 ACK
+From: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+To: <sip:1001@192.168.121.114:5060>;tag=AVER6TiIt1
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:62905" 
+to="192.168.121.114:5060" 
+time="1546607940463"
+isSender="false" 
+transactionId="z9hg4bk86ypefxrr" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="BYE sip:sipsoft@192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[BYE sip:sipsoft@192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:62905;rport=62905;received=192.168.121.114;branch=z9hG4bK86YpeFxRr
+To: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+From: <sip:1001@192.168.121.114:5060>;tag=AVER6TiIt1
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+CSeq: 773303970 BYE
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:61296" 
+time="1546607940472"
+isSender="true" 
+transactionId="z9hg4bk8be200b6276986fb59bde1d4b697732c" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="BYE sip:1000@192.168.121.114:61296;transport=UDP SIP/2.0" 
+>
+<![CDATA[BYE sip:1000@192.168.121.114:61296;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bK8be200b6276986fb59bde1d4b697732c
+CSeq: 1 BYE
+From: <sip:1001@192.168.121.114:5060>;tag=AVER6TiIt1
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+To: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:62905" 
+to="192.168.121.114:5060" 
+time="1546607940965"
+isSender="false" 
+transactionId="z9hg4bk86ypefxrr" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="BYE sip:sipsoft@192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[BYE sip:sipsoft@192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:62905;rport=62905;received=192.168.121.114;branch=z9hG4bK86YpeFxRr
+To: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+From: <sip:1001@192.168.121.114:5060>;tag=AVER6TiIt1
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+CSeq: 773303970 BYE
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:61296" 
+time="1546607940971"
+isSender="true" 
+transactionId="z9hg4bk8be200b6276986fb59bde1d4b697732c" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="BYE sip:1000@192.168.121.114:61296;transport=UDP SIP/2.0" 
+>
+<![CDATA[BYE sip:1000@192.168.121.114:61296;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bK8be200b6276986fb59bde1d4b697732c
+CSeq: 1 BYE
+From: <sip:1001@192.168.121.114:5060>;tag=AVER6TiIt1
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+To: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:61296" 
+to="192.168.121.114:5060" 
+time="1546607940974"
+isSender="false" 
+transactionId="z9hg4bk8be200b6276986fb59bde1d4b697732c" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+From: <sip:1001@192.168.121.114:5060>;tag=AVER6TiIt1
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+CSeq: 1 BYE
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bK8be200b6276986fb59bde1d4b697732c
+To: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+Contact: <sip:192.168.121.114:61296;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:62905" 
+time="1546607940978"
+isSender="true" 
+transactionId="z9hg4bk86ypefxrr" 
+callId="tvEjolZt-1546607747862@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.121.114:62905;rport=62905;received=192.168.121.114;branch=z9hG4bK86YpeFxRr
+To: <sip:1000@192.168.121.114:5060>;tag=PmZDogBs
+From: <sip:1001@192.168.121.114:5060>;tag=AVER6TiIt1
+Call-ID: tvEjolZt-1546607747862@guomindeMacBook-Pro.local
+CSeq: 773303970 BYE
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:61296" 
+to="192.168.121.114:5060" 
+time="1546608072604"
+isSender="false" 
+transactionId="z9hg4bkynxttqmor" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="INVITE sip:1001@192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:1001@192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:61296;rport=61296;received=192.168.121.114;branch=z9hG4bKyNxTTqMOR
+Max-Forwards: 70
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Content-Type: application/sdp
+Contact: <sip:1000@192.168.121.114:61296;transport=UDP>
+Content-Length: 217
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:61296" 
+time="1546608072609"
+isSender="true" 
+transactionId="z9hg4bkynxttqmor" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.121.114:61296;rport=61296;received=192.168.121.114;branch=z9hG4bKyNxTTqMOR
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:62905" 
+time="1546608072613"
+isSender="true" 
+transactionId="z9hg4bkynxttqmorsipphone" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="INVITE sip:1001@192.168.121.114:62905;transport=UDP SIP/2.0" 
+>
+<![CDATA[INVITE sip:1001@192.168.121.114:62905;transport=UDP SIP/2.0
+Max-Forwards: 70
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Content-Type: application/sdp
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bKyNxTTqMORsipphone
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+Content-Length: 217
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:62905" 
+to="192.168.121.114:5060" 
+time="1546608072616"
+isSender="false" 
+transactionId="z9hg4bkynxttqmorsipphone" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+From: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bKyNxTTqMORsipphone
+To: <sip:1001@192.168.121.114:5060>;tag=2hqxaXR9wo
+Contact: <sip:192.168.121.114:62905;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:61296" 
+time="1546608072621"
+isSender="true" 
+transactionId="z9hg4bkynxttqmor" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Via: SIP/2.0/UDP 192.168.121.114:61296;rport=61296;received=192.168.121.114;branch=z9hG4bKyNxTTqMOR
+From: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+To: <sip:1001@192.168.121.114:5060>;tag=2hqxaXR9wo
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:62905" 
+to="192.168.121.114:5060" 
+time="1546608097511"
+isSender="false" 
+transactionId="z9hg4bkynxttqmorsipphone" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+From: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bKyNxTTqMORsipphone
+To: <sip:1001@192.168.121.114:5060>;tag=2hqxaXR9wo
+Content-Type: application/sdp
+Contact: <sip:192.168.121.114:62905;transport=UDP>
+Content-Length: 218
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:61296" 
+time="1546608097515"
+isSender="true" 
+transactionId="z9hg4bkynxttqmor" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.121.114:61296;rport=61296;received=192.168.121.114;branch=z9hG4bKyNxTTqMOR
+From: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+CSeq: 3 INVITE
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+To: <sip:1001@192.168.121.114:5060>;tag=2hqxaXR9wo
+Content-Type: application/sdp
+Content-Length: 218
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:61296" 
+to="192.168.121.114:5060" 
+time="1546608097532"
+isSender="false" 
+transactionId="z9hg4bkoed7q375j" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="ACK sip:sipsoft@192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[ACK sip:sipsoft@192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:61296;rport=61296;received=192.168.121.114;branch=z9hG4bKOEd7q375j
+To: <sip:1001@192.168.121.114:5060>;tag=2hqxaXR9wo
+From: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+CSeq: 3 ACK
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:62905" 
+time="1546608097538"
+isSender="true" 
+transactionId="z9hg4bk4e7a54441ad46117838f7ef3110a6b48" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="ACK sip:192.168.121.114:62905;transport=UDP SIP/2.0" 
+>
+<![CDATA[ACK sip:192.168.121.114:62905;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bK4e7a54441ad46117838f7ef3110a6b48
+CSeq: 3 ACK
+From: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+To: <sip:1001@192.168.121.114:5060>;tag=2hqxaXR9wo
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:62905" 
+to="192.168.121.114:5060" 
+time="1546608316284"
+isSender="false" 
+transactionId="z9hg4bks2kfr4v3h" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="BYE sip:sipsoft@192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[BYE sip:sipsoft@192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:62905;rport=62905;received=192.168.121.114;branch=z9hG4bKs2kFr4V3H
+To: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+From: <sip:1001@192.168.121.114:5060>;tag=2hqxaXR9wo
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+CSeq: 773304158 BYE
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:61296" 
+time="1546608316290"
+isSender="true" 
+transactionId="z9hg4bk9dae16c84ea784498631303aa7d4f4e5" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="BYE sip:1000@192.168.121.114:61296;transport=UDP SIP/2.0" 
+>
+<![CDATA[BYE sip:1000@192.168.121.114:61296;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bK9dae16c84ea784498631303aa7d4f4e5
+CSeq: 1 BYE
+From: <sip:1001@192.168.121.114:5060>;tag=2hqxaXR9wo
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+To: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:62905" 
+to="192.168.121.114:5060" 
+time="1546608316785"
+isSender="false" 
+transactionId="z9hg4bks2kfr4v3h" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="BYE sip:sipsoft@192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[BYE sip:sipsoft@192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:62905;rport=62905;received=192.168.121.114;branch=z9hG4bKs2kFr4V3H
+To: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+From: <sip:1001@192.168.121.114:5060>;tag=2hqxaXR9wo
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+CSeq: 773304158 BYE
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:61296" 
+time="1546608316790"
+isSender="true" 
+transactionId="z9hg4bk9dae16c84ea784498631303aa7d4f4e5" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="BYE sip:1000@192.168.121.114:61296;transport=UDP SIP/2.0" 
+>
+<![CDATA[BYE sip:1000@192.168.121.114:61296;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bK9dae16c84ea784498631303aa7d4f4e5
+CSeq: 1 BYE
+From: <sip:1001@192.168.121.114:5060>;tag=2hqxaXR9wo
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+To: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:61296" 
+to="192.168.121.114:5060" 
+time="1546608316792"
+isSender="false" 
+transactionId="z9hg4bk9dae16c84ea784498631303aa7d4f4e5" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+From: <sip:1001@192.168.121.114:5060>;tag=2hqxaXR9wo
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+CSeq: 1 BYE
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bK9dae16c84ea784498631303aa7d4f4e5
+To: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+Contact: <sip:192.168.121.114:61296;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:62905" 
+time="1546608316796"
+isSender="true" 
+transactionId="z9hg4bks2kfr4v3h" 
+callId="N2W1UTdc-1546608072602@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.121.114:62905;rport=62905;received=192.168.121.114;branch=z9hG4bKs2kFr4V3H
+To: <sip:1000@192.168.121.114:5060>;tag=q6CY1VG3
+From: <sip:1001@192.168.121.114:5060>;tag=2hqxaXR9wo
+Call-ID: N2W1UTdc-1546608072602@guomindeMacBook-Pro.local
+CSeq: 773304158 BYE
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:53961" 
+to="192.168.121.114:5060" 
+time="1546608348008"
+isSender="false" 
+transactionId="z9hg4bk3ckys95qe" 
+callId="72WTPLWc-1546608347995@guomindeMacBook-Pro.local" 
+firstLine="REGISTER sip:192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:53961;rport=53961;received=192.168.121.114;branch=z9hG4bK3cKys95qe
+Max-Forwards: 70
+To: <sip:1000@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=CYjRGo0R
+Call-ID: 72WTPLWc-1546608347995@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Expires: 3600
+Contact: <sip:1000@192.168.121.114:53961;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:53961" 
+time="1546608348011"
+isSender="true" 
+transactionId="z9hg4bk3ckys95qe" 
+callId="72WTPLWc-1546608347995@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.121.114:53961;rport=53961;received=192.168.121.114;branch=z9hG4bK3cKys95qe
+To: <sip:1000@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=CYjRGo0R
+Call-ID: 72WTPLWc-1546608347995@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:54583" 
+to="192.168.121.114:5060" 
+time="1546608353226"
+isSender="false" 
+transactionId="z9hg4bkmpotuizrk" 
+callId="CoGFF4DE-1546608353216@guomindeMacBook-Pro.local" 
+firstLine="REGISTER sip:192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:54583;rport=54583;received=192.168.121.114;branch=z9hG4bKMpOtUIZRk
+Max-Forwards: 70
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1001@192.168.121.114:5060>;tag=L6bFY2DA
+Call-ID: CoGFF4DE-1546608353216@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Expires: 3600
+Contact: <sip:1001@192.168.121.114:54583;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:54583" 
+time="1546608353229"
+isSender="true" 
+transactionId="z9hg4bkmpotuizrk" 
+callId="CoGFF4DE-1546608353216@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.121.114:54583;rport=54583;received=192.168.121.114;branch=z9hG4bKMpOtUIZRk
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1001@192.168.121.114:5060>;tag=L6bFY2DA
+Call-ID: CoGFF4DE-1546608353216@guomindeMacBook-Pro.local
+CSeq: 1 REGISTER
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:53961" 
+to="192.168.121.114:5060" 
+time="1546608378578"
+isSender="false" 
+transactionId="z9hg4bknoxonhci1" 
+callId="yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local" 
+firstLine="INVITE sip:1001@192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:1001@192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:53961;rport=53961;received=192.168.121.114;branch=z9hG4bKNoXONhci1
+Max-Forwards: 70
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=NBUT4mOH
+Call-ID: yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Content-Type: application/sdp
+Contact: <sip:1000@192.168.121.114:53961;transport=UDP>
+Content-Length: 218
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:53961" 
+time="1546608378585"
+isSender="true" 
+transactionId="z9hg4bknoxonhci1" 
+callId="yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.121.114:53961;rport=53961;received=192.168.121.114;branch=z9hG4bKNoXONhci1
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=NBUT4mOH
+Call-ID: yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:54583" 
+time="1546608378588"
+isSender="true" 
+transactionId="z9hg4bknoxonhci1sipphone" 
+callId="yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local" 
+firstLine="INVITE sip:1001@192.168.121.114:54583;transport=UDP SIP/2.0" 
+>
+<![CDATA[INVITE sip:1001@192.168.121.114:54583;transport=UDP SIP/2.0
+Max-Forwards: 70
+To: <sip:1001@192.168.121.114:5060>
+From: <sip:1000@192.168.121.114:5060>;tag=NBUT4mOH
+Call-ID: yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Content-Type: application/sdp
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bKNoXONhci1sipphone
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+Content-Length: 218
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:54583" 
+to="192.168.121.114:5060" 
+time="1546608378604"
+isSender="false" 
+transactionId="z9hg4bknoxonhci1sipphone" 
+callId="yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+From: <sip:1000@192.168.121.114:5060>;tag=NBUT4mOH
+Call-ID: yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bKNoXONhci1sipphone
+To: <sip:1001@192.168.121.114:5060>;tag=GxmW1A5oH1
+Contact: <sip:192.168.121.114:54583;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:53961" 
+time="1546608378608"
+isSender="true" 
+transactionId="z9hg4bknoxonhci1" 
+callId="yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Via: SIP/2.0/UDP 192.168.121.114:53961;rport=53961;received=192.168.121.114;branch=z9hG4bKNoXONhci1
+From: <sip:1000@192.168.121.114:5060>;tag=NBUT4mOH
+Call-ID: yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+To: <sip:1001@192.168.121.114:5060>;tag=GxmW1A5oH1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:54583" 
+to="192.168.121.114:5060" 
+time="1546608386995"
+isSender="false" 
+transactionId="z9hg4bknoxonhci1sipphone" 
+callId="yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+From: <sip:1000@192.168.121.114:5060>;tag=NBUT4mOH
+Call-ID: yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bKNoXONhci1sipphone
+To: <sip:1001@192.168.121.114:5060>;tag=GxmW1A5oH1
+Content-Type: application/sdp
+Contact: <sip:192.168.121.114:54583;transport=UDP>
+Content-Length: 218
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:53961" 
+time="1546608386999"
+isSender="true" 
+transactionId="z9hg4bknoxonhci1" 
+callId="yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.121.114:53961;rport=53961;received=192.168.121.114;branch=z9hG4bKNoXONhci1
+From: <sip:1000@192.168.121.114:5060>;tag=NBUT4mOH
+Call-ID: yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local
+CSeq: 2 INVITE
+Contact: <sip:sipsoft@192.168.121.114:5060>;expires=3600
+To: <sip:1001@192.168.121.114:5060>;tag=GxmW1A5oH1
+Content-Type: application/sdp
+Content-Length: 218
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:53961" 
+to="192.168.121.114:5060" 
+time="1546608387024"
+isSender="false" 
+transactionId="z9hg4bktq0bweaoe" 
+callId="yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local" 
+firstLine="ACK sip:sipsoft@192.168.121.114:5060 SIP/2.0" 
+>
+<![CDATA[ACK sip:sipsoft@192.168.121.114:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:53961;rport=53961;received=192.168.121.114;branch=z9hG4bKTq0BwEAOE
+To: <sip:1001@192.168.121.114:5060>;tag=GxmW1A5oH1
+From: <sip:1000@192.168.121.114:5060>;tag=NBUT4mOH
+Call-ID: yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local
+CSeq: 2 ACK
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.121.114:5060" 
+to="192.168.121.114:54583" 
+time="1546608387027"
+isSender="true" 
+transactionId="z9hg4bk0fe8b4c126716b11107c27d82a61f761" 
+callId="yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local" 
+firstLine="ACK sip:192.168.121.114:54583;transport=UDP SIP/2.0" 
+>
+<![CDATA[ACK sip:192.168.121.114:54583;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.121.114:5060;branch=z9hG4bK0fe8b4c126716b11107c27d82a61f761
+CSeq: 2 ACK
+From: <sip:1000@192.168.121.114:5060>;tag=NBUT4mOH
+Call-ID: yN0FRC0Z-1546608378565@guomindeMacBook-Pro.local
+To: <sip:1001@192.168.121.114:5060>;tag=GxmW1A5oH1
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= sipphone
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<message
+from="192.168.199.195:64507" 
+to="192.168.199.195:5060" 
+time="1546675761936"
+isSender="false" 
+transactionId="z9hg4bkuool3xeeb" 
+callId="FFtMnhHe-1546675761916@guomindeMBP.lan" 
+firstLine="REGISTER sip:192.168.199.195:5060 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.199.195:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:64507;rport=64507;received=192.168.199.195;branch=z9hG4bKuOOL3XEeb
+Max-Forwards: 70
+To: <sip:1000@192.168.199.195:5060>
+From: <sip:1000@192.168.199.195:5060>;tag=HP0Z3815
+Call-ID: FFtMnhHe-1546675761916@guomindeMBP.lan
+CSeq: 1 REGISTER
+Expires: 3600
+Contact: <sip:1000@192.168.199.195:64507;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:64507" 
+time="1546675762025"
+isSender="true" 
+transactionId="z9hg4bkuool3xeeb" 
+callId="FFtMnhHe-1546675761916@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:64507;rport=64507;received=192.168.199.195;branch=z9hG4bKuOOL3XEeb
+To: <sip:1000@192.168.199.195:5060>
+From: <sip:1000@192.168.199.195:5060>;tag=HP0Z3815
+Call-ID: FFtMnhHe-1546675761916@guomindeMBP.lan
+CSeq: 1 REGISTER
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:53026" 
+to="192.168.199.195:5060" 
+time="1546675778247"
+isSender="false" 
+transactionId="z9hg4bky1gpkzwdx" 
+callId="tSANmSh1-1546675778237@guomindeMBP.lan" 
+firstLine="REGISTER sip:192.168.199.195:5060 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.199.195:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:53026;rport=53026;received=192.168.199.195;branch=z9hG4bKy1gpKzwDx
+Max-Forwards: 70
+To: <sip:1001@192.168.199.195:5060>
+From: <sip:1001@192.168.199.195:5060>;tag=NuGdFAmR
+Call-ID: tSANmSh1-1546675778237@guomindeMBP.lan
+CSeq: 1 REGISTER
+Expires: 3600
+Contact: <sip:1001@192.168.199.195:53026;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:53026" 
+time="1546675778253"
+isSender="true" 
+transactionId="z9hg4bky1gpkzwdx" 
+callId="tSANmSh1-1546675778237@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:53026;rport=53026;received=192.168.199.195;branch=z9hG4bKy1gpKzwDx
+To: <sip:1001@192.168.199.195:5060>
+From: <sip:1001@192.168.199.195:5060>;tag=NuGdFAmR
+Call-ID: tSANmSh1-1546675778237@guomindeMBP.lan
+CSeq: 1 REGISTER
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:64507" 
+to="192.168.199.195:5060" 
+time="1546675801291"
+isSender="false" 
+transactionId="z9hg4bkfljroquir" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="INVITE sip:1001@192.168.199.195:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:1001@192.168.199.195:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:64507;rport=64507;received=192.168.199.195;branch=z9hG4bKFLjROquiR
+Max-Forwards: 70
+To: <sip:1001@192.168.199.195:5060>
+From: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+CSeq: 2 INVITE
+Content-Type: application/sdp
+Contact: <sip:1000@192.168.199.195:64507;transport=UDP>
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:64507" 
+time="1546675801303"
+isSender="true" 
+transactionId="z9hg4bkfljroquir" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.199.195:64507;rport=64507;received=192.168.199.195;branch=z9hG4bKFLjROquiR
+To: <sip:1001@192.168.199.195:5060>
+From: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+CSeq: 2 INVITE
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:53026" 
+time="1546675801309"
+isSender="true" 
+transactionId="z9hg4bkfljroquirsipphone" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="INVITE sip:1001@192.168.199.195:53026;transport=UDP SIP/2.0" 
+>
+<![CDATA[INVITE sip:1001@192.168.199.195:53026;transport=UDP SIP/2.0
+Max-Forwards: 70
+To: <sip:1001@192.168.199.195:5060>
+From: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+CSeq: 2 INVITE
+Content-Type: application/sdp
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bKFLjROquiRsipphone
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:53026" 
+to="192.168.199.195:5060" 
+time="1546675801322"
+isSender="false" 
+transactionId="z9hg4bkfljroquirsipphone" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+From: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+CSeq: 2 INVITE
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bKFLjROquiRsipphone
+To: <sip:1001@192.168.199.195:5060>;tag=FF1axigkp2
+Contact: <sip:192.168.199.195:53026;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:64507" 
+time="1546675801328"
+isSender="true" 
+transactionId="z9hg4bkfljroquir" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Via: SIP/2.0/UDP 192.168.199.195:64507;rport=64507;received=192.168.199.195;branch=z9hG4bKFLjROquiR
+From: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+CSeq: 2 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1001@192.168.199.195:5060>;tag=FF1axigkp2
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:53026" 
+to="192.168.199.195:5060" 
+time="1546675821689"
+isSender="false" 
+transactionId="z9hg4bkfljroquirsipphone" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+From: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+CSeq: 2 INVITE
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bKFLjROquiRsipphone
+To: <sip:1001@192.168.199.195:5060>;tag=FF1axigkp2
+Content-Type: application/sdp
+Contact: <sip:192.168.199.195:53026;transport=UDP>
+Content-Length: 217
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:64507" 
+time="1546675821693"
+isSender="true" 
+transactionId="z9hg4bkfljroquir" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:64507;rport=64507;received=192.168.199.195;branch=z9hG4bKFLjROquiR
+From: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+CSeq: 2 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1001@192.168.199.195:5060>;tag=FF1axigkp2
+Content-Type: application/sdp
+Content-Length: 217
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:64507" 
+to="192.168.199.195:5060" 
+time="1546675821811"
+isSender="false" 
+transactionId="z9hg4bkraolmvxof" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="ACK sip:sipsoft@192.168.199.195:5060 SIP/2.0" 
+>
+<![CDATA[ACK sip:sipsoft@192.168.199.195:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:64507;rport=64507;received=192.168.199.195;branch=z9hG4bKRaoLmVxOf
+To: <sip:1001@192.168.199.195:5060>;tag=FF1axigkp2
+From: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+CSeq: 2 ACK
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:53026" 
+time="1546675821815"
+isSender="true" 
+transactionId="z9hg4bk581f5cb57ddc4ed11a17295cc4330919" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="ACK sip:192.168.199.195:53026;transport=UDP SIP/2.0" 
+>
+<![CDATA[ACK sip:192.168.199.195:53026;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bK581f5cb57ddc4ed11a17295cc4330919
+CSeq: 2 ACK
+From: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+To: <sip:1001@192.168.199.195:5060>;tag=FF1axigkp2
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:53026" 
+to="192.168.199.195:5060" 
+time="1546675935259"
+isSender="false" 
+transactionId="z9hg4bky4lcwmv4a" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="BYE sip:sipsoft@192.168.199.195:5060 SIP/2.0" 
+>
+<![CDATA[BYE sip:sipsoft@192.168.199.195:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:53026;rport=53026;received=192.168.199.195;branch=z9hG4bKy4LCWmv4a
+To: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+From: <sip:1001@192.168.199.195:5060>;tag=FF1axigkp2
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+CSeq: 773337967 BYE
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:64507" 
+time="1546675935266"
+isSender="true" 
+transactionId="z9hg4bka2b76b81322fbec2f064ff53e9c0049d" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="BYE sip:1000@192.168.199.195:64507;transport=UDP SIP/2.0" 
+>
+<![CDATA[BYE sip:1000@192.168.199.195:64507;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bKa2b76b81322fbec2f064ff53e9c0049d
+CSeq: 1 BYE
+From: <sip:1001@192.168.199.195:5060>;tag=FF1axigkp2
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+To: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:64507" 
+time="1546675935769"
+isSender="true" 
+transactionId="z9hg4bka2b76b81322fbec2f064ff53e9c0049d" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="BYE sip:1000@192.168.199.195:64507;transport=UDP SIP/2.0" 
+>
+<![CDATA[BYE sip:1000@192.168.199.195:64507;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bKa2b76b81322fbec2f064ff53e9c0049d
+CSeq: 1 BYE
+From: <sip:1001@192.168.199.195:5060>;tag=FF1axigkp2
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+To: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:53026" 
+to="192.168.199.195:5060" 
+time="1546675935769"
+isSender="false" 
+transactionId="z9hg4bky4lcwmv4a" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="BYE sip:sipsoft@192.168.199.195:5060 SIP/2.0" 
+>
+<![CDATA[BYE sip:sipsoft@192.168.199.195:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:53026;rport=53026;received=192.168.199.195;branch=z9hG4bKy4LCWmv4a
+To: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+From: <sip:1001@192.168.199.195:5060>;tag=FF1axigkp2
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+CSeq: 773337967 BYE
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:64507" 
+to="192.168.199.195:5060" 
+time="1546675935772"
+isSender="false" 
+transactionId="z9hg4bka2b76b81322fbec2f064ff53e9c0049d" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+From: <sip:1001@192.168.199.195:5060>;tag=FF1axigkp2
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+CSeq: 1 BYE
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bKa2b76b81322fbec2f064ff53e9c0049d
+To: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+Contact: <sip:192.168.199.195:64507;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:53026" 
+time="1546675935775"
+isSender="true" 
+transactionId="z9hg4bky4lcwmv4a" 
+callId="e0Xru5oU-1546675801278@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:53026;rport=53026;received=192.168.199.195;branch=z9hG4bKy4LCWmv4a
+To: <sip:1000@192.168.199.195:5060>;tag=7G1YvC1E
+From: <sip:1001@192.168.199.195:5060>;tag=FF1axigkp2
+Call-ID: e0Xru5oU-1546675801278@guomindeMBP.lan
+CSeq: 773337967 BYE
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:60396" 
+to="192.168.199.195:5060" 
+time="1546675993697"
+isSender="false" 
+transactionId="z9hg4bkbxd6fnx1b" 
+callId="XICcZFMD-1546675993695@guomindeMBP.lan" 
+firstLine="REGISTER sip:192.168.199.195:5060 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.199.195:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bKbxd6FnX1B
+Max-Forwards: 70
+To: <sip:1001@192.168.199.195:5060>
+From: <sip:1001@192.168.199.195:5060>;tag=NS4RYSRk
+Call-ID: XICcZFMD-1546675993695@guomindeMBP.lan
+CSeq: 5 REGISTER
+Expires: 3600
+Contact: <sip:1001@192.168.199.195:60396;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546675993700"
+isSender="true" 
+transactionId="z9hg4bkbxd6fnx1b" 
+callId="XICcZFMD-1546675993695@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bKbxd6FnX1B
+To: <sip:1001@192.168.199.195:5060>
+From: <sip:1001@192.168.199.195:5060>;tag=NS4RYSRk
+Call-ID: XICcZFMD-1546675993695@guomindeMBP.lan
+CSeq: 5 REGISTER
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:60396" 
+to="192.168.199.195:5060" 
+time="1546676025313"
+isSender="false" 
+transactionId="z9hg4bkwufvhb02l" 
+callId="KRTmqYVm-1546676025310@guomindeMBP.lan" 
+firstLine="REGISTER sip:192.168.199.195:5060 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.199.195:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bKWUFvHb02l
+Max-Forwards: 70
+To: <sip:1001@192.168.199.195:5060>
+From: <sip:1001@192.168.199.195:5060>;tag=pqjt8LTT
+Call-ID: KRTmqYVm-1546676025310@guomindeMBP.lan
+CSeq: 6 REGISTER
+Expires: 3600
+Contact: <sip:1001@192.168.199.195:60396;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676025317"
+isSender="true" 
+transactionId="z9hg4bkwufvhb02l" 
+callId="KRTmqYVm-1546676025310@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bKWUFvHb02l
+To: <sip:1001@192.168.199.195:5060>
+From: <sip:1001@192.168.199.195:5060>;tag=pqjt8LTT
+Call-ID: KRTmqYVm-1546676025310@guomindeMBP.lan
+CSeq: 6 REGISTER
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:60396" 
+to="192.168.199.195:5060" 
+time="1546676080628"
+isSender="false" 
+transactionId="z9hg4bketpb7go8r" 
+callId="FmfLMzmW-1546676080625@guomindeMBP.lan" 
+firstLine="REGISTER sip:192.168.199.195:5060 SIP/2.0" 
+>
+<![CDATA[REGISTER sip:192.168.199.195:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bKetPB7go8R
+Max-Forwards: 70
+To: <sip:1002@192.168.199.195:5060>
+From: <sip:1002@192.168.199.195:5060>;tag=3zWF0lLP
+Call-ID: FmfLMzmW-1546676080625@guomindeMBP.lan
+CSeq: 7 REGISTER
+Expires: 3600
+Contact: <sip:1002@192.168.199.195:60396;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676080632"
+isSender="true" 
+transactionId="z9hg4bketpb7go8r" 
+callId="FmfLMzmW-1546676080625@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bKetPB7go8R
+To: <sip:1002@192.168.199.195:5060>
+From: <sip:1002@192.168.199.195:5060>;tag=3zWF0lLP
+Call-ID: FmfLMzmW-1546676080625@guomindeMBP.lan
+CSeq: 7 REGISTER
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:64507" 
+to="192.168.199.195:5060" 
+time="1546676096449"
+isSender="false" 
+transactionId="z9hg4bknwsgbydfk" 
+callId="eEsn2buF-1546676096448@guomindeMBP.lan" 
+firstLine="INVITE sip:1002@192.168.199.195:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:1002@192.168.199.195:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:64507;rport=64507;received=192.168.199.195;branch=z9hG4bKnwSGBydfk
+Max-Forwards: 70
+To: <sip:1002@192.168.199.195:5060>
+From: <sip:1000@192.168.199.195:5060>;tag=FMcovZLm
+Call-ID: eEsn2buF-1546676096448@guomindeMBP.lan
+CSeq: 3 INVITE
+Content-Type: application/sdp
+Contact: <sip:1000@192.168.199.195:64507;transport=UDP>
+Content-Length: 218
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:64507" 
+time="1546676096453"
+isSender="true" 
+transactionId="z9hg4bknwsgbydfk" 
+callId="eEsn2buF-1546676096448@guomindeMBP.lan" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.199.195:64507;rport=64507;received=192.168.199.195;branch=z9hG4bKnwSGBydfk
+To: <sip:1002@192.168.199.195:5060>
+From: <sip:1000@192.168.199.195:5060>;tag=FMcovZLm
+Call-ID: eEsn2buF-1546676096448@guomindeMBP.lan
+CSeq: 3 INVITE
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676096456"
+isSender="true" 
+transactionId="z9hg4bknwsgbydfksipphone" 
+callId="eEsn2buF-1546676096448@guomindeMBP.lan" 
+firstLine="INVITE sip:1002@192.168.199.195:60396;transport=UDP SIP/2.0" 
+>
+<![CDATA[INVITE sip:1002@192.168.199.195:60396;transport=UDP SIP/2.0
+Max-Forwards: 70
+To: <sip:1002@192.168.199.195:5060>
+From: <sip:1000@192.168.199.195:5060>;tag=FMcovZLm
+Call-ID: eEsn2buF-1546676096448@guomindeMBP.lan
+CSeq: 3 INVITE
+Content-Type: application/sdp
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bKnwSGBydfksipphone
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+Content-Length: 218
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:60396" 
+to="192.168.199.195:5060" 
+time="1546676096463"
+isSender="false" 
+transactionId="z9hg4bknwsgbydfksipphone" 
+callId="eEsn2buF-1546676096448@guomindeMBP.lan" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+From: <sip:1000@192.168.199.195:5060>;tag=FMcovZLm
+Call-ID: eEsn2buF-1546676096448@guomindeMBP.lan
+CSeq: 3 INVITE
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bKnwSGBydfksipphone
+To: <sip:1002@192.168.199.195:5060>;tag=UvN67FAwZw
+Contact: <sip:192.168.199.195:60396;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:64507" 
+time="1546676096467"
+isSender="true" 
+transactionId="z9hg4bknwsgbydfk" 
+callId="eEsn2buF-1546676096448@guomindeMBP.lan" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Via: SIP/2.0/UDP 192.168.199.195:64507;rport=64507;received=192.168.199.195;branch=z9hG4bKnwSGBydfk
+From: <sip:1000@192.168.199.195:5060>;tag=FMcovZLm
+Call-ID: eEsn2buF-1546676096448@guomindeMBP.lan
+CSeq: 3 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1002@192.168.199.195:5060>;tag=UvN67FAwZw
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:60396" 
+to="192.168.199.195:5060" 
+time="1546676100999"
+isSender="false" 
+transactionId="z9hg4bknwsgbydfksipphone" 
+callId="eEsn2buF-1546676096448@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+From: <sip:1000@192.168.199.195:5060>;tag=FMcovZLm
+Call-ID: eEsn2buF-1546676096448@guomindeMBP.lan
+CSeq: 3 INVITE
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bKnwSGBydfksipphone
+To: <sip:1002@192.168.199.195:5060>;tag=UvN67FAwZw
+Content-Type: application/sdp
+Contact: <sip:192.168.199.195:60396;transport=UDP>
+Content-Length: 217
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:64507" 
+time="1546676101003"
+isSender="true" 
+transactionId="z9hg4bknwsgbydfk" 
+callId="eEsn2buF-1546676096448@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:64507;rport=64507;received=192.168.199.195;branch=z9hG4bKnwSGBydfk
+From: <sip:1000@192.168.199.195:5060>;tag=FMcovZLm
+Call-ID: eEsn2buF-1546676096448@guomindeMBP.lan
+CSeq: 3 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1002@192.168.199.195:5060>;tag=UvN67FAwZw
+Content-Type: application/sdp
+Content-Length: 217
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:64507" 
+to="192.168.199.195:5060" 
+time="1546676101018"
+isSender="false" 
+transactionId="z9hg4bkntcwifu8f" 
+callId="eEsn2buF-1546676096448@guomindeMBP.lan" 
+firstLine="ACK sip:sipsoft@192.168.199.195:5060 SIP/2.0" 
+>
+<![CDATA[ACK sip:sipsoft@192.168.199.195:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:64507;rport=64507;received=192.168.199.195;branch=z9hG4bKNTCwiFU8f
+To: <sip:1002@192.168.199.195:5060>;tag=UvN67FAwZw
+From: <sip:1000@192.168.199.195:5060>;tag=FMcovZLm
+Call-ID: eEsn2buF-1546676096448@guomindeMBP.lan
+CSeq: 3 ACK
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676101023"
+isSender="true" 
+transactionId="z9hg4bk34126b15b09b747132129cfe828855f0" 
+callId="eEsn2buF-1546676096448@guomindeMBP.lan" 
+firstLine="ACK sip:192.168.199.195:60396;transport=UDP SIP/2.0" 
+>
+<![CDATA[ACK sip:192.168.199.195:60396;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bK34126b15b09b747132129cfe828855f0
+CSeq: 3 ACK
+From: <sip:1000@192.168.199.195:5060>;tag=FMcovZLm
+Call-ID: eEsn2buF-1546676096448@guomindeMBP.lan
+To: <sip:1002@192.168.199.195:5060>;tag=UvN67FAwZw
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:60396" 
+to="192.168.199.195:5060" 
+time="1546676146997"
+isSender="false" 
+transactionId="z9hg4bk8iujkvekr" 
+callId="u6BZivn8-1546676146989@guomindeMBP.lan" 
+firstLine="INVITE sip:1000@192.168.199.195 SIP/2.0" 
+>
+<![CDATA[INVITE sip:1000@192.168.199.195 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK8IUjkVEkR
+Max-Forwards: 70
+To: <sip:1000@192.168.199.195>
+From: <sip:1002@192.168.199.195:5060>;tag=e6ZfgkK8
+Call-ID: u6BZivn8-1546676146989@guomindeMBP.lan
+CSeq: 8 INVITE
+Content-Type: application/sdp
+Contact: <sip:1002@192.168.199.195:60396;transport=UDP>
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676147001"
+isSender="true" 
+transactionId="z9hg4bk8iujkvekr" 
+callId="u6BZivn8-1546676146989@guomindeMBP.lan" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK8IUjkVEkR
+To: <sip:1000@192.168.199.195>
+From: <sip:1002@192.168.199.195:5060>;tag=e6ZfgkK8
+Call-ID: u6BZivn8-1546676146989@guomindeMBP.lan
+CSeq: 8 INVITE
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:60396" 
+to="192.168.199.195:5060" 
+time="1546676162080"
+isSender="false" 
+transactionId="z9hg4bk8iujkvekr:cancel" 
+callId="u6BZivn8-1546676146989@guomindeMBP.lan" 
+firstLine="CANCEL sip:1000@192.168.199.195 SIP/2.0" 
+>
+<![CDATA[CANCEL sip:1000@192.168.199.195 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK8IUjkVEkR
+Max-Forwards: 70
+To: <sip:1000@192.168.199.195>
+From: <sip:1002@192.168.199.195:5060>;tag=e6ZfgkK8
+Call-ID: u6BZivn8-1546676146989@guomindeMBP.lan
+CSeq: 8 CANCEL
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676162083"
+isSender="true" 
+transactionId="z9hg4bk8iujkvekr:cancel" 
+callId="u6BZivn8-1546676146989@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK8IUjkVEkR
+To: <sip:1000@192.168.199.195>
+From: <sip:1002@192.168.199.195:5060>;tag=e6ZfgkK8
+Call-ID: u6BZivn8-1546676146989@guomindeMBP.lan
+CSeq: 8 CANCEL
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:60396" 
+to="192.168.199.195:5060" 
+time="1546676182261"
+isSender="false" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="INVITE sip:1000@192.168.199.195:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:1000@192.168.199.195:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+Max-Forwards: 70
+To: <sip:1000@192.168.199.195:5060>
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Content-Type: application/sdp
+Contact: <sip:1002@192.168.199.195:60396;transport=UDP>
+Content-Length: 218
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676182265"
+isSender="true" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+To: <sip:1000@192.168.199.195:5060>
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:64507" 
+time="1546676182267"
+isSender="true" 
+transactionId="z9hg4bk5dflb74apsipphone" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="INVITE sip:1000@192.168.199.195:64507;transport=UDP SIP/2.0" 
+>
+<![CDATA[INVITE sip:1000@192.168.199.195:64507;transport=UDP SIP/2.0
+Max-Forwards: 70
+To: <sip:1000@192.168.199.195:5060>
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Content-Type: application/sdp
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bK5dFLB74Apsipphone
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+Content-Length: 218
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:64507" 
+to="192.168.199.195:5060" 
+time="1546676182272"
+isSender="false" 
+transactionId="z9hg4bk5dflb74apsipphone" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bK5dFLB74Apsipphone
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Contact: <sip:192.168.199.195:64507;transport=UDP>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676182276"
+isSender="true" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:64507" 
+to="192.168.199.195:5060" 
+time="1546676194350"
+isSender="false" 
+transactionId="z9hg4bk5dflb74apsipphone" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Via: SIP/2.0/UDP 192.168.199.195:5060;branch=z9hG4bK5dFLB74Apsipphone
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Content-Type: application/sdp
+Contact: <sip:192.168.199.195:64507;transport=UDP>
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676194353"
+isSender="true" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Content-Type: application/sdp
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676194854"
+isSender="true" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Content-Type: application/sdp
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676195862"
+isSender="true" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Content-Type: application/sdp
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676197875"
+isSender="true" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Content-Type: application/sdp
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676201900"
+isSender="true" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Content-Type: application/sdp
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676205929"
+isSender="true" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Content-Type: application/sdp
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676209964"
+isSender="true" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Content-Type: application/sdp
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676213995"
+isSender="true" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Content-Type: application/sdp
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676218020"
+isSender="true" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Content-Type: application/sdp
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676222053"
+isSender="true" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Content-Type: application/sdp
+Content-Length: 219
+
+]]>
+</message>
+
+<message
+from="192.168.199.195:5060" 
+to="192.168.199.195:60396" 
+time="1546676226077"
+isSender="true" 
+transactionId="z9hg4bk5dflb74ap" 
+callId="rmMiIwK2-1546676182257@guomindeMBP.lan" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.199.195:60396;rport=60396;received=192.168.199.195;branch=z9hG4bK5dFLB74Ap
+From: <sip:1002@192.168.199.195:5060>;tag=xxdtFA6O
+Call-ID: rmMiIwK2-1546676182257@guomindeMBP.lan
+CSeq: 10 INVITE
+Contact: <sip:sipsoft@192.168.199.195:5060>;expires=3600
+To: <sip:1000@192.168.199.195:5060>;tag=YXSm8jHzju
+Content-Type: application/sdp
+Content-Length: 219
+
+]]>
+</message>
+
